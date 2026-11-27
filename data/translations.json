@@ -1,0 +1,964 @@
+{
+  "names": [
+    {
+      "brand": "Dag Vers",
+      "name": "Eddo",
+      "nameZh": "芋头"
+    },
+    {
+      "brand": "Dag Vers",
+      "name": "Chayote",
+      "nameZh": "佛手瓜"
+    },
+    {
+      "brand": "Dag Vers",
+      "name": "Flespompoen",
+      "nameZh": "蒲瓜"
+    },
+    {
+      "brand": "Dag Vers",
+      "name": "Shimeji Brown",
+      "nameZh": "蟹味菇"
+    },
+    {
+      "brand": "Dag Vers",
+      "name": "Rambutan Vietnam (Air)",
+      "nameZh": "空运红毛丹"
+    },
+    {
+      "brand": "Dag Vers",
+      "name": "Mini Pak Choi",
+      "nameZh": "小白菜"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Zoete Sojasaus voor Dim Sum & Rijst",
+      "nameZh": "点心与米饭用甜酱油"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Chiu Chow Chilli Oil",
+      "nameZh": "潮州辣椒油"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Hot Chilli Soy Sauce",
+      "nameZh": "香辣酱油"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Rice Vinegar",
+      "nameZh": "米醋"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Saus voor Dumplings",
+      "nameZh": "饺子蘸酱"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Premium Paddenstoelen Kruidenpoeder",
+      "nameZh": "特级蘑菇调味粉"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Sichuan Spicy Noodle Sauce",
+      "nameZh": "四川担担面酱"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Red Braising Sauce",
+      "nameZh": "红烧酱"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Sichuan Style Hot & Spicy Stir Fry Sauce",
+      "nameZh": "四川香辣炒菜酱"
+    },
+    {
+      "brand": "Lee Kum Kee",
+      "name": "Alle Stir Fry Sauce",
+      "nameZh": "炒菜酱（全系列）"
+    },
+    {
+      "brand": "Chee Seng",
+      "name": "Pure Sesame Oil",
+      "nameZh": "纯芝麻油"
+    },
+    {
+      "brand": "Oke",
+      "name": "Handmade Egg Rolls",
+      "nameZh": "手工蛋卷"
+    },
+    {
+      "brand": "Oke",
+      "name": "Wife Cake",
+      "nameZh": "老婆饼"
+    },
+    {
+      "brand": "Oke",
+      "name": "Egg Yolk Puff Red Bean Paste",
+      "nameZh": "蛋黄红豆酥"
+    },
+    {
+      "brand": "Oke",
+      "name": "Macau Assorted Biscuits Gift",
+      "nameZh": "澳门什锦饼干礼盒"
+    },
+    {
+      "brand": "Oke",
+      "name": "Assorted Biscuits",
+      "nameZh": "什锦饼干"
+    },
+    {
+      "brand": "Oke",
+      "name": "Assorted Biscuits Macau",
+      "nameZh": "澳门什锦饼干"
+    },
+    {
+      "brand": "Oke",
+      "name": "Dual Layer Box Assorted Biscuits",
+      "nameZh": "双层什锦饼干礼盒"
+    },
+    {
+      "brand": "Gold Kili",
+      "name": "Natural Ginger Bag with Lemongrass",
+      "nameZh": "香茅姜茶"
+    },
+    {
+      "brand": "Gold Kili",
+      "name": "Instant Matcha Latte",
+      "nameZh": "即溶抹茶拿铁"
+    },
+    {
+      "brand": "Gold Kili",
+      "name": "Instant Ginger Latte with Honey",
+      "nameZh": "即溶蜂蜜姜汁拿铁"
+    },
+    {
+      "brand": "Gold Kili",
+      "name": "Instant Matcha Ginger Latte",
+      "nameZh": "即溶姜汁抹茶拿铁"
+    },
+    {
+      "brand": "Gold Kili",
+      "name": "Instant Ginger Tea Latte with Honey",
+      "nameZh": "即溶蜂蜜姜茶拿铁"
+    },
+    {
+      "brand": "Surasang",
+      "name": "Sliced Rice Cake",
+      "nameZh": "切片年糕"
+    },
+    {
+      "brand": "Surasang",
+      "name": "Rice Cake Stick",
+      "nameZh": "条状年糕"
+    },
+    {
+      "brand": "Kabuki",
+      "name": "Instant Ramen Soy Sauce Flavor",
+      "nameZh": "酱油味方便拉面"
+    },
+    {
+      "brand": "Kabuki",
+      "name": "Instant Kabuki Ramen Miso Smaak.",
+      "nameZh": "味噌味方便拉面"
+    },
+    {
+      "brand": "Kabuki",
+      "name": "Instant Kabuki Ramen Tonkotsu Flavor",
+      "nameZh": "豚骨味方便拉面"
+    },
+    {
+      "brand": "Indomie",
+      "name": "Instant Noodles Mi Goreng",
+      "nameZh": "炒面（Mi Goreng）"
+    },
+    {
+      "brand": "Indomie",
+      "name": "Instant Noodles Chicken Flavour",
+      "nameZh": "鸡肉味方便面"
+    },
+    {
+      "brand": "Indomie",
+      "name": "Instant Cup Noodles Chicken Flavour",
+      "nameZh": "鸡肉味杯面"
+    },
+    {
+      "brand": "Indomie",
+      "name": "Instant Noodles Mi Goreng BBQ Chicken Flavour",
+      "nameZh": "烧烤鸡肉味炒面"
+    },
+    {
+      "brand": "Dynasty",
+      "name": "Jasmijnrijst",
+      "nameZh": "茉莉香米"
+    },
+    {
+      "brand": "White Tower",
+      "name": "Tomatenpuree",
+      "nameZh": "番茄酱"
+    },
+    {
+      "brand": "Ebi",
+      "name": "Vannamei PD Garnalen 26/30",
+      "nameZh": "去壳南美白虾 26/30"
+    },
+    {
+      "brand": "Seacon",
+      "name": "Vannamei Ongepelde Garnalen Zonder Kop 16/20",
+      "nameZh": "不去壳去头南美白虾 16/20"
+    },
+    {
+      "brand": "Lucky Duck",
+      "name": "Geroosterde Eend Zonder Kop",
+      "nameZh": "烤鸭（整只去头）"
+    },
+    {
+      "brand": "Oriental",
+      "name": "Bevroren Zwarte Kip",
+      "nameZh": "冷冻乌鸡"
+    },
+    {
+      "brand": "",
+      "name": "Rauwe Eendenpoten",
+      "nameZh": "生鸭掌"
+    },
+    {
+      "brand": "Oriental",
+      "name": "Kwartel",
+      "nameZh": "鹌鹑"
+    },
+    {
+      "brand": "",
+      "name": "Iberico Procureur (gesneden 1,5mm)",
+      "nameZh": "伊比利亚猪梅花肉（切片 1.5 mm）"
+    },
+    {
+      "brand": "",
+      "name": "Iberico Pork Belly Rindless",
+      "nameZh": "伊比利亚猪五花（去皮）"
+    },
+    {
+      "brand": "Chi Mei",
+      "name": "Fluffy Leek Chinese Pancake",
+      "nameZh": "葱油饼"
+    },
+    {
+      "brand": "Chi Mei",
+      "name": "Japanese Stir Fried Ginger Flavor Gyoza",
+      "nameZh": "日式炒姜味锅贴"
+    },
+    {
+      "brand": "Chi Mei",
+      "name": "Sesame Bun",
+      "nameZh": "芝麻包"
+    },
+    {
+      "brand": "Chi Mei",
+      "name": "Plant-Based Meat Bun Japanese Stir Fried Ginger Flavour",
+      "nameZh": "日式炒姜味素肉包"
+    },
+    {
+      "brand": "Delico",
+      "name": "Lo Mai Kai",
+      "nameZh": "糯米鸡"
+    },
+    {
+      "brand": "Delico",
+      "name": "Pork Sieuw Mai",
+      "nameZh": "猪肉烧卖"
+    },
+    {
+      "brand": "Delico",
+      "name": "Beef Sieuw Mai",
+      "nameZh": "牛肉烧卖"
+    },
+    {
+      "brand": "Delico",
+      "name": "Chicken Sieuw Mai",
+      "nameZh": "鸡肉烧卖"
+    },
+    {
+      "brand": "Do Do",
+      "name": "Cuttlefish Ball",
+      "nameZh": "墨鱼丸"
+    },
+    {
+      "brand": "Do Do",
+      "name": "Visballen",
+      "nameZh": "鱼丸"
+    },
+    {
+      "brand": "Do Do",
+      "name": "Fried Fish Ball",
+      "nameZh": "炸鱼丸"
+    },
+    {
+      "brand": "Do Do",
+      "name": "Tofu Fish Cake",
+      "nameZh": "豆腐鱼饼"
+    },
+    {
+      "brand": "CP",
+      "name": "Instant Shrimp Wonton Soup",
+      "nameZh": "即食虾云吞汤"
+    },
+    {
+      "brand": "CP",
+      "name": "Shrimp Wonton Soup with Choy Sum",
+      "nameZh": "菜心虾云吞汤"
+    },
+    {
+      "brand": "CP",
+      "name": "Instant Shrimp Wonton Soup With Noodles",
+      "nameZh": "虾云吞汤面"
+    },
+    {
+      "brand": "CP",
+      "name": "Whole Shrimp Wonton in Tom Yum Soup",
+      "nameZh": "冬阴功整只虾云吞"
+    },
+    {
+      "brand": "Meirun",
+      "name": "Pork Xiaolongbao",
+      "nameZh": "猪肉小笼包"
+    },
+    {
+      "brand": "Meirun",
+      "name": "Pork Dumplings with Shrimp",
+      "nameZh": "猪肉虾饺"
+    },
+    {
+      "brand": "Meirun",
+      "name": "Pork Dumplings with Cabbage",
+      "nameZh": "白菜猪肉饺子"
+    },
+    {
+      "brand": "Meirun",
+      "name": "Pork Dumplings with Mushroom",
+      "nameZh": "香菇猪肉饺子"
+    },
+    {
+      "brand": "Meirun",
+      "name": "Pork Dumplings with Chives",
+      "nameZh": "韭菜猪肉饺子"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Matcha",
+      "nameZh": "抹茶麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Vanilla",
+      "nameZh": "香草麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Strawberry",
+      "nameZh": "草莓麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Coconut Flavor",
+      "nameZh": "椰子麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Yuzu Flavor",
+      "nameZh": "柚子麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Mango Flavor",
+      "nameZh": "芒果麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Black Sesame Flavor",
+      "nameZh": "黑芝麻麻薯冰淇淋"
+    },
+    {
+      "brand": "Koyuki",
+      "name": "Mochi Ice Pistachio Flavor",
+      "nameZh": "开心果麻薯冰淇淋"
+    },
+    {
+      "brand": "Altive",
+      "name": "Altive Monaka Dairy Free Red Bean Flavor",
+      "nameZh": "无乳红豆最中冰淇淋"
+    },
+    {
+      "brand": "CJ",
+      "name": "Altive Monaka Dairy Free Chestnut Flavor",
+      "nameZh": "无乳栗子最中冰淇淋"
+    },
+    {
+      "brand": "CJ",
+      "name": "Altive Monaka Dairy Free Matcha Flavor",
+      "nameZh": "无乳抹茶最中冰淇淋"
+    },
+    {
+      "brand": "CJ",
+      "name": "Altive Monaka Dairy Free Chocolate Flavor",
+      "nameZh": "无乳巧克力最中冰淇淋"
+    },
+    {
+      "brand": "Saongwon",
+      "name": "Vegetable Pancake",
+      "nameZh": "蔬菜饼"
+    },
+    {
+      "brand": "Saongwon",
+      "name": "Kimchi Pancake",
+      "nameZh": "泡菜饼"
+    },
+    {
+      "brand": "Chang Li Sheng",
+      "name": "Taiwanese Flaky Pancake",
+      "nameZh": "台湾手抓饼"
+    },
+    {
+      "brand": "Chang Li Sheng",
+      "name": "Meigan Pancake",
+      "nameZh": "梅干菜饼"
+    },
+    {
+      "brand": "Chang Li Sheng",
+      "name": "Fresh Beancurd Skins",
+      "nameZh": "鲜腐皮"
+    },
+    {
+      "brand": "SamYang",
+      "name": "Buldak Kimchi Dumpling",
+      "nameZh": "火鸡泡菜饺子"
+    },
+    {
+      "brand": "SamYang",
+      "name": "Hot Chicken Carbonara Ramen",
+      "nameZh": "火鸡奶油培根拉面"
+    },
+    {
+      "brand": "Shimadaya",
+      "name": "Frozen Ramen Noodles",
+      "nameZh": "冷冻拉面"
+    },
+    {
+      "brand": "Jongga",
+      "name": "Mat Kimchi",
+      "nameZh": "切片泡菜"
+    },
+    {
+      "brand": "Jongga",
+      "name": "Rice Cake (Sliced Type)",
+      "nameZh": "切片年糕"
+    },
+    {
+      "brand": "Jongga",
+      "name": "Rice Cake (Tubular Type)",
+      "nameZh": "条状年糕"
+    },
+    {
+      "brand": "Nissin",
+      "name": "Instant Noodles Spicy Seafood Flavour",
+      "nameZh": "香辣海鲜方便面"
+    },
+    {
+      "brand": "Bibigo",
+      "name": "Korean Style Udon Noodles K-BBQ Flavor",
+      "nameZh": "韩式烤肉味乌冬面"
+    },
+    {
+      "brand": "Bibigo",
+      "name": "Korean Style Udon Noodles Tteokbokki Chilli Flavor",
+      "nameZh": "辣炒年糕味乌冬面"
+    },
+    {
+      "brand": "Bibigo",
+      "name": "Gochujang Red Pepper Paste",
+      "nameZh": "韩式辣椒酱（Gochujang）"
+    },
+    {
+      "brand": "Bibigo",
+      "name": "Ssamjang Seasoned Soybean Paste",
+      "nameZh": "韩式包饭酱（Ssamjang）"
+    },
+    {
+      "brand": "Hakuro",
+      "name": "Hakuro Koshihikari Short Grain Japonica Rice",
+      "nameZh": "越光短粒米"
+    },
+    {
+      "brand": "Haday",
+      "name": "Wei Ji Xian Seasoning Sauce",
+      "nameZh": "味极鲜调味汁"
+    },
+    {
+      "brand": "Haday",
+      "name": "Superior Taste Oyster Sauce",
+      "nameZh": "特级蚝油"
+    },
+    {
+      "brand": "Haday",
+      "name": "0 Additives Hot Soybean Sauce",
+      "nameZh": "零添加香辣黄豆酱"
+    },
+    {
+      "brand": "Hao Ren Jia",
+      "name": "Seasoning for Beef in Sour Soup",
+      "nameZh": "酸汤肥牛调味料"
+    },
+    {
+      "brand": "Hao Ren Jia",
+      "name": "Seasoning for Fish with Sour Cabbage",
+      "nameZh": "酸菜鱼调味料"
+    },
+    {
+      "brand": "Hao Ren Jia",
+      "name": "Spicy Hot Pot Soup Base with Hawthorn",
+      "nameZh": "山楂麻辣火锅底料"
+    },
+    {
+      "brand": "Hao Ren Jia",
+      "name": "Spicy Hot Pot Soup Base",
+      "nameZh": "麻辣火锅底料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Tonic Yam & Medeberry Soepkruiden",
+      "nameZh": "淮山枸杞炖汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Shashen Yuzhu Herbal Soup Stock",
+      "nameZh": "沙参玉竹炖汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Voedzame Groenten. & Paddenstoelen Soepbouillon",
+      "nameZh": "营养蔬菜蘑菇汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Zi Yin Run Fei Soepkruiden",
+      "nameZh": "滋阴润肺炖汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Pak Kee Tangshen Soepkruiden",
+      "nameZh": "北芪党参炖汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Yang Yan Soup Stock",
+      "nameZh": "养颜炖汤料"
+    },
+    {
+      "brand": "Golden Diamond",
+      "name": "Cordyceps Tonic Soepkruiden",
+      "nameZh": "虫草花炖汤料"
+    },
+    {
+      "brand": "CJ",
+      "name": "Rode Peperpasta (Gochujang)",
+      "nameZh": "韩式辣椒酱（Gochujang）"
+    },
+    {
+      "brand": "CJ",
+      "name": "Bibigo Korean Hot Pepper Paste",
+      "nameZh": "Bibigo 韩式辣椒酱"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Okonomiyaki Takoyaki Flour",
+      "nameZh": "大阪烧／章鱼烧粉"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Vegan Okonomi Sauce",
+      "nameZh": "素食大阪烧酱"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Okonomi Spicy Sauce",
+      "nameZh": "香辣大阪烧酱"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Tenkasu Tempura Crisps",
+      "nameZh": "天妇罗碎"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Dried Red Pickled Ginger",
+      "nameZh": "红姜丝"
+    },
+    {
+      "brand": "Otafuku",
+      "name": "Senmai Vinegar",
+      "nameZh": "千枚醋"
+    },
+    {
+      "brand": "My Chef",
+      "name": "Sweet Chilli Sauce",
+      "nameZh": "甜辣酱"
+    },
+    {
+      "brand": "Crying Thaiger",
+      "name": "Sriracha Chilli Sauce",
+      "nameZh": "是拉差辣椒酱"
+    },
+    {
+      "brand": "Suree",
+      "name": "Coconut Milk",
+      "nameZh": "椰浆"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Tteokbokki Sauce",
+      "nameZh": "炒年糕酱"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Soup Base for Spicy Army Stew Budaejjigae",
+      "nameZh": "部队锅汤底"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Soup Base for Spicy Tofu Stew Sundubujjigae",
+      "nameZh": "嫩豆腐锅汤底"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Soup Base with Soybean Paste Doenjangjjigae",
+      "nameZh": "大酱汤汤底"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Luncheon Meat",
+      "nameZh": "午餐肉"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Gochujang Red Pepper Paste",
+      "nameZh": "韩式辣椒酱（Gochujang）"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Sunchang Ssamjang Gekruide Bonenpasta",
+      "nameZh": "淳昌包饭酱"
+    },
+    {
+      "brand": "O'Food",
+      "name": "Ssamjang Mixed Soy Bean Paste",
+      "nameZh": "包饭酱"
+    },
+    {
+      "brand": "Chung Jung One",
+      "name": "Ssamjang Seasoned Korean Soybean Paste",
+      "nameZh": "韩式包饭酱"
+    },
+    {
+      "brand": "Chung Jung One",
+      "name": "Sliced Seaweed",
+      "nameZh": "海苔片"
+    },
+    {
+      "brand": "Chung Jung One",
+      "name": "Seasoned Seaweed Snack with Olive Oil",
+      "nameZh": "橄榄油调味海苔"
+    },
+    {
+      "brand": "Chung Jung One",
+      "name": "Traditional Laver with Olive Oil",
+      "nameZh": "橄榄油传统海苔"
+    },
+    {
+      "brand": "Wayong",
+      "name": "Pika Curacao",
+      "nameZh": "库拉索 Pika 辣椒酱"
+    },
+    {
+      "brand": "Wayong",
+      "name": "Sambal Triple Hot",
+      "nameZh": "三倍辣参峇酱"
+    },
+    {
+      "brand": "Sunlee/Div. Merken",
+      "name": "Sweet Corn on the Cob",
+      "nameZh": "甜玉米棒"
+    },
+    {
+      "brand": "Yummy House",
+      "name": "Bird Eye Chili Sauce",
+      "nameZh": "小米椒辣椒酱"
+    },
+    {
+      "brand": "Tian Peng",
+      "name": "Wasabi Powder",
+      "nameZh": "芥末粉"
+    },
+    {
+      "brand": "Sunlee",
+      "name": "Rambutan With Pineapple In Syrup",
+      "nameZh": "糖水红毛丹菠萝"
+    },
+    {
+      "brand": "Hot Kid",
+      "name": "QQ Gummy Candy 3 Flavour",
+      "nameZh": "QQ 软糖（三种口味）"
+    },
+    {
+      "brand": "Hot Kid",
+      "name": "QQ Gummy Candy (Lychee / Peach / Pineapple / Apple Flavour)",
+      "nameZh": "QQ 软糖（荔枝／桃／菠萝／苹果）"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Konnyaku Jelly Lychee Flavor",
+      "nameZh": "荔枝魔芋果冻"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Konnyaku Jelly Mango Flavor",
+      "nameZh": "芒果魔芋果冻"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Konnyaku Jelly Blueberry Flavour",
+      "nameZh": "蓝莓魔芋果冻"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Pudding Mango Flavor",
+      "nameZh": "芒果布丁"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Pudding Lychee Flavor",
+      "nameZh": "荔枝布丁"
+    },
+    {
+      "brand": "Cozzo",
+      "name": "Pudding Peach Flavor",
+      "nameZh": "水蜜桃布丁"
+    },
+    {
+      "brand": "Heng Kang",
+      "name": "Sunflower Seed Coconut Flavour",
+      "nameZh": "椰子味瓜子"
+    },
+    {
+      "brand": "Bestore",
+      "name": "Roasted Broad Beans with Spicy Flavour",
+      "nameZh": "香辣兰花豆"
+    },
+    {
+      "brand": "Kameda",
+      "name": "Shoyu Honey Rice Cracker",
+      "nameZh": "酱油蜂蜜米果"
+    },
+    {
+      "brand": "Kameda",
+      "name": "Mini Honey Rice Cracker",
+      "nameZh": "迷你蜂蜜米果"
+    },
+    {
+      "brand": "Yopokki",
+      "name": "Yoppokki Snack Hot & Spicy Flavor",
+      "nameZh": "香辣炒年糕零食"
+    },
+    {
+      "brand": "Yopokki",
+      "name": "Sweet & Spicy Rapokki",
+      "nameZh": "甜辣拉炒年糕"
+    },
+    {
+      "brand": "Yopokki",
+      "name": "Kimchi Rapokki",
+      "nameZh": "泡菜拉炒年糕"
+    },
+    {
+      "brand": "If",
+      "name": "Coconut Water 100%",
+      "nameZh": "100% 椰子水"
+    },
+    {
+      "brand": "Green Dot Dot",
+      "name": "Matcha Wellness Tea Capsule",
+      "nameZh": "抹茶养生茶胶囊"
+    },
+    {
+      "brand": "Green Dot Dot",
+      "name": "Pu'er with Chrysanthemum Wellness Tea Capsule",
+      "nameZh": "菊花普洱茶胶囊"
+    },
+    {
+      "brand": "Green Dot Dot",
+      "name": "Pu'er with Tangerine Peel Wellness Tea Capsule",
+      "nameZh": "陈皮普洱茶胶囊"
+    },
+    {
+      "brand": "Kamcha",
+      "name": "HK Style Yuan Yang (Coffee & Tea) Capsule",
+      "nameZh": "港式鸳鸯胶囊"
+    },
+    {
+      "brand": "Kamcha",
+      "name": "HK Style Ceylon Tea Capsule",
+      "nameZh": "港式锡兰茶胶囊"
+    },
+    {
+      "brand": "Ichinoya",
+      "name": "Hitogokochi Kimoto Junmai Ginjo Sake",
+      "nameZh": "人心地 生酛 纯米吟酿清酒"
+    },
+    {
+      "brand": "Gekkeikan",
+      "name": "Traditionele Sake (Japan)",
+      "nameZh": "传统清酒"
+    },
+    {
+      "brand": "Gekkeikan",
+      "name": "Traditional Sake (Japan)",
+      "nameZh": "传统清酒"
+    },
+    {
+      "brand": "Gekkeikan",
+      "name": "Nigori Sake",
+      "nameZh": "浊酒"
+    },
+    {
+      "brand": "Kook Soon Dang",
+      "name": "Makgeolli Rice Wine",
+      "nameZh": "米酒"
+    },
+    {
+      "brand": "Kook Soon Dang",
+      "name": "Makgeolli Rice Wine Banana Flavor",
+      "nameZh": "香蕉味米酒"
+    },
+    {
+      "brand": "Kook Soon Dang",
+      "name": "Makgeolli Rice Wine White Grape Flavor",
+      "nameZh": "白葡萄味米酒"
+    },
+    {
+      "brand": "Kook Soon Dang",
+      "name": "Makgeolli Rice Wine Peach Flavor",
+      "nameZh": "桃味米酒"
+    },
+    {
+      "brand": "Acecook",
+      "name": "Alle Hao Hao Instant Noodles",
+      "nameZh": "Hao Hao 方便面（全系列）"
+    },
+    {
+      "brand": "Jinjili",
+      "name": "Sesame Ball / Glutinous Rice Ball Egg Custard Filling",
+      "nameZh": "芝麻球／蛋奶黄糯米球（全系列）"
+    },
+    {
+      "brand": "Visafdeling",
+      "name": "Zalmbuik",
+      "nameZh": "三文鱼腹"
+    },
+    {
+      "brand": "Visafdeling",
+      "name": "Roodbaars",
+      "nameZh": "红鱼"
+    },
+    {
+      "brand": "Visafdeling",
+      "name": "Sliptong",
+      "nameZh": "龙利鱼（Sliptong）"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Klapstuk",
+      "nameZh": "牛胸肉（Klapstuk）"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Kippendijfilet zonder Vel",
+      "nameZh": "去皮鸡腿肉"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Verse Varkensprocureur",
+      "nameZh": "新鲜猪梅花肉"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Geroosterd varkensvlees",
+      "nameZh": "烤猪肉"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Geroosterd Buikspek",
+      "nameZh": "烤五花"
+    },
+    {
+      "brand": "Vleesafdeling",
+      "name": "Gegrilde Spareribs",
+      "nameZh": "烤排骨"
+    }
+  ],
+  "packages": {
+    "per kilo": "每公斤",
+    "per pak": "每包",
+    "per fles": "每瓶",
+    "per pot": "每罐",
+    "per cup": "每杯",
+    "per stuk": "每只",
+    "per zak": "每袋",
+    "per blik": "每罐",
+    "per doos": "每箱",
+    "per 500g": "每 500 g",
+    "500g": "每 500 g"
+  },
+  "packageByUrl": {
+    "https://amazingoriental.com/product/surasang-rijstcake-gesneden-907g/": "907 g",
+    "https://amazingoriental.com/product/surasang-gesneden-rijstcake-650g/": "650 g"
+  },
+  "prep": {
+    "Lucky Duck 烤鸭（整只去头）": "现成可吃",
+    "烤猪肉": "现成可吃",
+    "烤五花": "现成可吃",
+    "烤排骨": "现成可吃",
+    "手工蛋卷": "开袋即食",
+    "老婆饼": "开袋即食",
+    "蛋黄红豆酥": "开袋即食",
+    "糯米鸡": "蒸或微波",
+    "猪肉烧卖": "蒸",
+    "牛肉烧卖": "蒸",
+    "鸡肉烧卖": "蒸",
+    "芝麻包": "蒸或微波",
+    "日式炒姜味锅贴": "煎或蒸",
+    "葱油饼": "煎或加热",
+    "日式炒姜味素肉包": "蒸或微波",
+    "猪肉小笼包": "蒸",
+    "猪肉虾饺": "煮或蒸",
+    "白菜猪肉饺子": "煮或蒸",
+    "香菇猪肉饺子": "煮或蒸",
+    "韭菜猪肉饺子": "煮或蒸",
+    "火鸡泡菜饺子": "煮或煎，会辣",
+    "即食虾云吞汤": "加热即食",
+    "菜心虾云吞汤": "加热即食",
+    "虾云吞汤面": "加热即食",
+    "冬阴功整只虾云吞": "加热即食",
+    "鸡肉味杯面": "冲泡即可",
+    "鸡肉味方便面": "煮或冲泡",
+    "炒面（Mi Goreng）": "煮或冲泡",
+    "烧烤鸡肉味炒面": "煮或冲泡",
+    "酱油味方便拉面": "煮或冲泡",
+    "味噌味方便拉面": "煮或冲泡",
+    "豚骨味方便拉面": "煮或冲泡",
+    "香辣海鲜方便面": "煮或冲泡",
+    "火鸡奶油培根拉面": "煮或冲泡，会辣",
+    "Hao Hao 方便面（全系列）": "煮或冲泡",
+    "烤鸭（整只去头）": "现成可吃"
+  }
+}

@@ -131,8 +131,9 @@ function render(data, state) {
       <div class="stamp">东方 / 本周</div>
       <div>
         <div class="hero-meta">
-          <p class="kicker">${esc(data.store?.name ?? "Amazing Oriental")} · ${esc(data.store?.address ?? "")}</p>
-          <a class="official-link" href="${esc(data.sourceUrl || data.store?.url)}" target="_blank" rel="noreferrer">官方优惠页 <span>↗</span></a>
+          <p class="kicker">${esc(data.store?.name ?? "Amazing Oriental")} · ${esc(data.store?.address ?? "")} · ${esc(data.store?.closedToday ? "今日休息" : `今日关店 ${data.store?.closesAt ?? "待确认"}`)}</p>
+          <a class="official-link" href="${esc(data.sourceUrl)}" target="_blank" rel="noreferrer">官方优惠页 <span>↗</span></a>
+          <a class="official-link" href="${esc(data.store?.url || data.store?.hoursSourceUrl || "")}" target="_blank" rel="noreferrer">门店营业时间 <span>↗</span></a>
         </div>
         <h1>本周，把<em>优惠</em>看全。</h1>
         <p class="subhead">当前惊奇东方行优惠的价格、折扣与商品图，一页看完。优惠来自全连锁官网，Almere 分店有没有货要到店才知道。</p>
@@ -165,8 +166,8 @@ function render(data, state) {
       </div>
     </section>
     <footer>
-      数据来自 <a href="${esc(data.sourceUrl)}" target="_blank" rel="noreferrer">Amazing Oriental 全连锁官网优惠页</a>；Almere 分店有没有货要到店才知道。
-      没有划掉原价的商品只展示现价，不当折扣。图片与价格以门店实际标签为准。本页是查阅时的快照，不会自动刷新。
+      数据来自 <a href="${esc(data.sourceUrl)}" target="_blank" rel="noreferrer">Amazing Oriental 全连锁官网优惠页</a>；Almere 分店营业时间来自 <a href="${esc(data.store?.hoursSourceUrl || data.store?.url || "")}" target="_blank" rel="noreferrer">官方店页</a>。分店有没有货要到店才知道。
+      没有划掉原价的商品只展示现价，不当折扣。官方只写「2 件 €x」「买 3 送 1」时按原文保留。图片与价格以门店实际标签为准。本页是刷新时的快照，通常每天更新。
       样式参考了 Cody 的 Dirk 看板，本页不是 Dirk 或东方行的官方站。
     </footer>
   </main>`;
