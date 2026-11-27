@@ -13,7 +13,7 @@
     {
       "brand": "Dag Vers",
       "name": "Flespompoen",
-      "nameZh": "蒲瓜"
+      "nameZh": "奶油南瓜"
     },
     {
       "brand": "Dag Vers",
@@ -198,7 +198,7 @@
     {
       "brand": "White Tower",
       "name": "Tomatenpuree",
-      "nameZh": "番茄酱"
+      "nameZh": "浓缩番茄膏"
     },
     {
       "brand": "Ebi",
@@ -328,7 +328,7 @@
     {
       "brand": "Meirun",
       "name": "Pork Dumplings with Shrimp",
-      "nameZh": "猪肉虾饺"
+      "nameZh": "鲜虾猪肉饺子"
     },
     {
       "brand": "Meirun",
@@ -593,7 +593,7 @@
     {
       "brand": "Otafuku",
       "name": "Dried Red Pickled Ginger",
-      "nameZh": "红姜丝"
+      "nameZh": "干制腌红姜丝"
     },
     {
       "brand": "Otafuku",
@@ -773,12 +773,12 @@
     {
       "brand": "Yopokki",
       "name": "Sweet & Spicy Rapokki",
-      "nameZh": "甜辣拉炒年糕"
+      "nameZh": "甜辣拉面炒年糕"
     },
     {
       "brand": "Yopokki",
       "name": "Kimchi Rapokki",
-      "nameZh": "泡菜拉炒年糕"
+      "nameZh": "泡菜拉面炒年糕"
     },
     {
       "brand": "If",
@@ -873,7 +873,7 @@
     {
       "brand": "Visafdeling",
       "name": "Sliptong",
-      "nameZh": "龙利鱼（Sliptong）"
+      "nameZh": "小号鳎鱼（Sliptong）"
     },
     {
       "brand": "Vleesafdeling",
@@ -940,7 +940,6 @@
     "葱油饼": "煎或加热",
     "日式炒姜味素肉包": "蒸或微波",
     "猪肉小笼包": "蒸",
-    "猪肉虾饺": "煮或蒸",
     "白菜猪肉饺子": "煮或蒸",
     "香菇猪肉饺子": "煮或蒸",
     "韭菜猪肉饺子": "煮或蒸",
@@ -959,6 +958,7 @@
     "香辣海鲜方便面": "煮或冲泡",
     "火鸡奶油培根拉面": "煮或冲泡，会辣",
     "Hao Hao 方便面（全系列）": "煮或冲泡",
-    "烤鸭（整只去头）": "现成可吃"
+    "烤鸭（整只去头）": "现成可吃",
+    "鲜虾猪肉饺子": "煮或蒸"
   }
 }
