@@ -1,0 +1,10 @@
+{
+  "name": "oriental-offers-dashboard",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/search.cjs && python3 -m unittest discover -s tests -p 'test_*.py'"
+  },
+  "devDependencies": {
+    "jsdom": "^29.0.1"
+  }
+}

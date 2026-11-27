@@ -111,7 +111,13 @@ function card(offer) {
   </article>`;
 }
 
-function render(data, state) {
+function bindImageErrors(root) {
+  root.querySelectorAll("img").forEach((img) => {
+    img.addEventListener("error", () => { img.style.display = "none"; });
+  });
+}
+
+function render(data, state, resultsOnly = false) {
   const stale = Date.now() - Date.parse(data.generatedAt) > 36 * 60 * 60 * 1000;
   const query = state.query.trim().toLowerCase();
   const filtered = sortOffers(
@@ -125,6 +131,12 @@ function render(data, state) {
   );
 
   const root = document.getElementById("root");
+  if (resultsOnly) {
+    root.querySelector("[data-role=result-count]").textContent = `全部优惠 · ${filtered.length} 项`;
+    root.querySelector(".offer-grid").innerHTML = filtered.map(card).join("");
+    bindImageErrors(root);
+    return;
+  }
   root.innerHTML = `<main class="page">
     <header class="hero">
       <a class="repo-link" href="https://github.com/cody1991/oriental-dirk-compare" target="_blank" rel="noreferrer" aria-label="在 GitHub 查看本项目仓库">GitHub 仓库 <span>↗</span></a>
@@ -144,7 +156,7 @@ function render(data, state) {
     <section class="catalogue" aria-labelledby="catalogue-title">
       <div class="catalogue-head">
         <div>
-          <span>全部优惠 · ${filtered.length} 项</span>
+          <span data-role="result-count" aria-live="polite">全部优惠 · ${filtered.length} 项</span>
           <h2 id="catalogue-title">本周优惠。</h2>
           <p class="catalogue-summary">按折扣、单位价格或售价排序。${esc(data.validity?.weeklyZh || "")}。${esc(data.validity?.amazingZh || "")}。<span class="validity-nl">${esc([data.validity?.weeklyNl, data.validity?.amazingNl].filter(Boolean).join(" · "))}</span></p>
         </div>
@@ -172,9 +184,7 @@ function render(data, state) {
     </footer>
   </main>`;
 
-  root.querySelectorAll("img").forEach((img) => {
-    img.addEventListener("error", () => { img.style.display = "none"; });
-  });
+  bindImageErrors(root);
   root.querySelectorAll("[data-category]").forEach((button) => {
     button.addEventListener("click", () => {
       state.category = button.getAttribute("data-category");
@@ -189,15 +199,20 @@ function render(data, state) {
   });
   const search = root.querySelector("[data-role=search]");
   if (search) {
+    // Keep the actual input node alive, including its native IME session and caret.
+    let composing = false;
+    const updateSearch = () => {
+      state.query = search.value;
+      render(data, state, true);
+    };
+    search.addEventListener("compositionstart", () => { composing = true; });
+    search.addEventListener("compositionend", () => {
+      composing = false;
+      updateSearch();
+    });
     search.addEventListener("input", (event) => {
-      state.query = event.target.value;
-      render(data, state);
-      const next = document.querySelector("[data-role=search]");
-      if (next) {
-        next.focus();
-        const end = next.value.length;
-        next.setSelectionRange(end, end);
-      }
+      if (composing || event.isComposing) return;
+      updateSearch();
     });
   }
 }

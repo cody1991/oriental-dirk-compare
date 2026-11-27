@@ -215,12 +215,33 @@ def section_html(raw: str, sec_id: str) -> str:
     return raw[start:end]
 
 
-def package_zh(package: str, url: str, translations: dict) -> str:
+def package_zh(package: str, url: str, translations: dict, name: str = "") -> str:
     extra = translations["packageByUrl"].get(url)
     key = package.lower()
     zh = translations["packages"].get(key, package)
     if extra and extra not in zh:
         zh = f"{zh} {extra}" if zh else extra
+    # Only enrich from explicit official title/URL units, never numeric product IDs.
+    # Existing official package quantities take precedence; retain ranges/multipacks.
+    if not re.search(r"\d", zh):
+        quantity = re.compile(
+            r"(?<![\w.,])((?:\d+\s*[x×]\s*)?\d+(?:[.,]\d+)?"
+            r"(?:\s*[-–]\s*\d+(?:[.,]\d+)?)?)\s*(kg|ml|cl|g|l|m|stuks?)(?![a-z])",
+            re.IGNORECASE,
+        )
+        slug = url.rstrip("/").rsplit("/", 1)[-1]
+        # Shrimp grades such as 26/30 become 26-30 in the official slug;
+        # they are not the lower end of a 30–750 g weight range.
+        for grade in re.findall(r"\b\d+/\d+\b", name):
+            slug = slug.replace(grade.replace("/", "-") + "-", "")
+        match = quantity.search(name) or quantity.search(slug)
+        if match:
+            amount = re.sub(r"\s*[x×]\s*", " × ", match.group(1))
+            amount = re.sub(r"\s*[-–]\s*", "–", amount)
+            unit = match.group(2).lower()
+            unit = "只" if unit in {"stuk", "stuks"} else unit
+            detail = f"{amount} {unit}"
+            zh = f"{zh} · {detail}" if zh else detail
     return zh
 
 
@@ -354,7 +375,7 @@ def merge_unique(items: list[dict], translations: dict) -> list[dict]:
             missing.append((brand, name, url))
             name_zh = name
         rec["nameZh"] = name_zh
-        rec["packageZh"] = package_zh(rec["package"], url, translations)
+        rec["packageZh"] = package_zh(rec["package"], url, translations, rec["name"])
         rec["unitPrice"] = unit_price(rec["sale"], rec["package"])
         rec["discountPercent"] = discount_percent(rec["sale"], rec["original"])
         rec["prep"] = prep_map.get(name_zh) or prep_map.get(f"{brand} {name_zh}")
